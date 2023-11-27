@@ -26,8 +26,6 @@ function App() {
 
     // Atualiza o estado com o valor formatado
     setDisplayedNumbers(formatoNumerico.trim())
-   
-    
   };
 
   const handleInputChangeName = (e) => {
