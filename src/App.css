@@ -73,14 +73,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
-  
+  font-size: 27px;
   letter-spacing: 0.2rem;
-  
   color: white;
   width: 100%;
   height: 80px;
 }
+
 .numero h1 {
   font-weight: 400;
 }
@@ -123,31 +122,69 @@
   display: block;
   height: 400px;
   width: 40%;
-  margin-top: 10%;
   margin-left: 15%;
  }
 
  label {
   display: block;
   text-align: start;
-  Font-size: 12px;
+  Font-size: 11px;
   letter-spacing: 0.1rem;
 
   margin-bottom: 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   color: hsl(278, 68%, 11%);
  }
- input {
+.form-sucess-card {
+  height: 400px;
+}
+
+.errorMessage {
+  color: red;
+  padding: 5px;
+  font-size: 15px;
+  display: inline-block;
+}
+.section-complete {
   display: block;
   text-align: center;
+  align-content: center;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.section-complete h1 {
+  
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.section-complete h2 {
+  margin: 10px;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+ input {
+  display: block;
+  text-align: start;
   width: 100%;
-  height: 40px;
+  height: 45px;
   border-radius: 5px;
   border-color: hsl(270, 3%, 87%);
   border: 1px solid rgb(241, 231, 231);
- }
+  padding: 10px;
+  font-size: 17px;
+}
+.input-data {
+  width: 60px;
+  margin-right: 20px;
+}
 
  .button-confirm {
   height: 50px;
@@ -176,12 +213,11 @@
 
  .cvc-cartao {
   display: inline-block;
-  margin-left: -40px;
- }
+  margin-left: 23px;
+}
 
  .alinhamento-conteudo-2 {
   display: flex;
-  justify-content: space-between;
   
  }
  .alinhamento-conteudo {
@@ -199,14 +235,18 @@
   color: white ;
  }
 
- .name-data h1, h2{ 
-  font-size: 11px;
+ .name-data h1, h2 {
+  font-size: 15px;
   color: white;
- } 
+}
+.svg-card {
+  height: 110px;
+  padding: 35px;
+}
 
  input:focus {
-  border: 2px solid hsl(278, 94%, 30%); /* Substitua #3498db pela cor desejada */
-  outline: none; /* Isso remove a borda padrão do navegador ao focar */
+  border: 1px solid hsl(278, 94%, 30%);
+  outline: none; 
 }
 
 @media screen and (max-width: 999px) {
@@ -362,5 +402,16 @@
     width: 90%;
     margin-top: 25%;
     margin-left: 1%;
+}
+
+.numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  letter-spacing: 0.1rem;
+  color: white;
+  width: 100%;
+  height: 80px;
 }
 }
