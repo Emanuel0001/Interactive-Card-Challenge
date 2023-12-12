@@ -355,7 +355,7 @@
   }
 
   .cartao-frente {
-    width: 330px;
+    width: 370px;
     height: 210px;
     border-radius: 15px;
     position: absolute;
@@ -371,12 +371,12 @@
 }
   
 .cartao-verso {
-  width: 330px;
+  width: 360px;
   height: 210px;
   border-radius: 15px;
   margin-top: 20px;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 20px;
   background-color: blue;
   background-image: url("../public/images/bg-card-back.png");
   background-size: cover;
